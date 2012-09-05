@@ -321,11 +321,11 @@ echo "<pre>";
 
 //var_dump(explode(PATH_SEPARATOR, get_include_path()));
 
-class garten extends SimpleXMLElement {
+// class garten extends SimpleXMLElement {
 
-}
+// }
 
-$xml = "<baum><ast/><ast><blatt/><frucht/></ast><ast><frucht name='kirsche'/></ast></baum>";
+// $xml = "<baum><ast/><ast><blatt/><frucht/></ast><ast><frucht name='kirsche'/></ast></baum>";
 //$obj = simplexml_load_string($xml,"garten",LIBXML_NOXMLDECL);
 
 //$obj2 = simplexml_load_string($xml);
@@ -338,6 +338,10 @@ $xml = "<baum><ast/><ast><blatt/><frucht/></ast><ast><frucht name='kirsche'/></a
 //var_dump($obj->xpath("//*/frucht/@name"));
 //var_dump($obj->asXML("./test.xml"));
 
+// $dom = new DOMDocument();
+// $dom->loadXML($xml);
+
+// var_dump($dom->getElementsByTagName("frucht")->item(1)->attributes->getNamedItem("name")->nodeValue);
 
 ?> 
 
