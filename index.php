@@ -319,7 +319,26 @@ echo "<pre>";
 // var_dump(base64_decode($b64));
 // var_dump(base64_decode($b64,true));
 
-var_dump(explode(PATH_SEPARATOR, get_include_path()));
+//var_dump(explode(PATH_SEPARATOR, get_include_path()));
+
+class garten extends SimpleXMLElement {
+
+}
+
+$xml = "<baum><ast/><ast><blatt/><frucht/></ast><ast><frucht name='kirsche'/></ast></baum>";
+//$obj = simplexml_load_string($xml,"garten",LIBXML_NOXMLDECL);
+
+//$obj2 = simplexml_load_string($xml);
+
+//var_dump($obj);
+// foreach($obj as $ast) {
+// 	var_dump($ast);
+// }
+
+//var_dump($obj->xpath("//*/frucht/@name"));
+//var_dump($obj->asXML("./test.xml"));
+
+
 ?> 
 
 
