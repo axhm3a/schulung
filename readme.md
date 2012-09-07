@@ -1,3 +1,5 @@
-Unsere Schulungssachen
+Zend Certified Engineer preparation group
+
 =============
-bla bla bla bla
+
+This are files for our Zend Certified Engineer (ZCE) preparation group.
