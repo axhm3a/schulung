@@ -4,6 +4,25 @@
   <book style="autobiography">
     <author>
       <first-name>Joe</first-name>
+      <last-name>Man</last-name>
+      <award/>
+    </author>
+    <author>
+      <first-name>Britney</first-name>
+      <last-name>Bob</last-name>
+      <publication>
+      	<title>Something is in the Water</title>
+      	<author>
+	      <first-name>Mary</first-name>
+	      <last-name>Bob</last-name>
+	    </author>
+      </publication>
+    </author>
+    <price>25</price>
+  </book>
+  <book style="autobiography">
+    <author>
+      <first-name>Joe</first-name>
       <last-name>Bob</last-name>
       <award>Trenton Literary Review Honorable Mention</award>
     </author>
