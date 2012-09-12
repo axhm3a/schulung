@@ -1,1 +1,0 @@
-/home/axhm3a/workspace/zend/schulung/index.php
