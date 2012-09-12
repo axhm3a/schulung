@@ -58,5 +58,15 @@ session.hash_bits_per_character
 9.5
 session löschen
 
+8.2
+
+5.20
+chroot
+
+11.9
+was ist ein Zeiger
+
+7.18
+
 */
 ?>
