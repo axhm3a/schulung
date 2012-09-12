@@ -343,6 +343,7 @@ echo "<pre>";
 
 // var_dump($dom->getElementsByTagName("frucht")->item(1)->attributes->getNamedItem("name")->nodeValue);
 
+
 ?> 
 
 

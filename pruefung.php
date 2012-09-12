@@ -29,6 +29,12 @@ $klasse = 'halo';
 
 echo $klasse::$vari;
 
+//7.3
+$a = "str";
+$b = "str";
+var_dump((object)$a===(object)$b);
+
+
 /*
 Frage 12 Buch 11.8:
 Interface :  2
